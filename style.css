@@ -1,10 +1,13 @@
 body, html{
- 
 padding: 0;
 margin: 0;
 color: white;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
 
 body{
     background: url(./images/wallp1.jpg);
@@ -12,9 +15,9 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    min-height: 100vh;
-    
-    
+    min-height: 95vh;
+    max-height: 95vh;
+    min-width: 1;
 }
 
 #vanta{
@@ -66,7 +69,6 @@ header > img{
 }
 
 
-
 header > h1{
     font-size: 0.9em;
     display: inline-block;
@@ -100,6 +102,7 @@ ul > li{
     transition-property: all;
     transition-duration: 500ms;
     transition-delay: 0.5;
+
 }
 
 
@@ -119,15 +122,38 @@ a{
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.9px;
-      
+
 }
+
+.main-footer{
+   cololr:white;
+   text-align: left;
+   bottom: 0;
+   position: fixed;
+   width: 100%;
+
+}
+
+
+.logo_git{
+    height:25px;
+    filter: invert(1);
+}
+
+span{
+    color:white;
+}
+
+
+
+/* BUTTON LINKS */
 
 
 .hover1:hover{
     
     transform: translateY(-15px);
     transition: 1s;
-    box-shadow: 0 0 1em rgb(189, 27, 189);
+    box-shadow: 0 0 1em rgb(97, 9, 97);
 }
 
 .hover2:hover{
@@ -141,12 +167,12 @@ a{
     
     transform: translateY(-15px);
     transition: 1s;
-    box-shadow: 0 0 1em rgb(100, 149, 253);
+    box-shadow: 0 0 1em rgb(51, 109, 235);
 }
 
 .hover4:hover{
     
     transform: translateY(-15px);
     transition: 1s;
-    box-shadow: 0 0 1em #ff7892;
+    box-shadow: 0 0 1em #ec4a6a;
 }
