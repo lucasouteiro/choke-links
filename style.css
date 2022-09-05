@@ -93,12 +93,17 @@ ul{
 
 
 ul > li{
-    background-color: #fffa;
-    backdrop-filter: blur(100px) saturate(190%) contrast (250%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast (250%);
+    
     border-radius: 10rem;
     padding: 10px;
     margin: 2.1em 0;
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.9px);
+    -webkit-backdrop-filter: blur(13.9px);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+
     transition-property: all;
     transition-duration: 500ms;
     transition-delay: 0.5;
@@ -126,7 +131,7 @@ a{
 }
 
 .main-footer{
-   cololr:white;
+   color:white;
    text-align: left;
    bottom: 0;
    position: fixed;
